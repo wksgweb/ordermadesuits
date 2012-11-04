@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* 初期化
+/////////////////////////////////////////*/
+
+body{
+	background-image: url(../img/bg_body.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-color: #f7f7f7;
+	
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 1.0em;
+	line-height: 1.6;
+	color: #333;
+}
+
+img {
+	vertical-align: text-bottom;
+	line-height: 1.0;
+}
+
+a:link{
+	color: #333;
+}
+a:visited{
+	color: #333;
+}
+a:hover{
+	color: #acb0b2;
+	text-decoration: none;
+}
+
+.red {
+	color: #960000;	
+}
+
+
+
+/* ラッパー
+/////////////////////////////////////////*/
+#wrapper{
+	margin: 0 auto;
+	width: 960px;
+	background-image: url(../img/bg_wrapper.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* ヘッダー
+/////////////////////////////////////////*/
+#header{
+	overflow: hidden;
+}
+
+/* ロゴ */
+#header h1 {
+	float: left;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+#header p#logo {
+	float: left;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+#header p#explanation {
+	font-size: 0.69em;
+	margin-top: 12px;
+}
+
+#header_right {
+	overflow: hidden;
+	flaot: left;
+	margin-top: 12px;	
+}
+
+#header dl {
+	font-size: 0.75em;
+	float: left;
+}
+
+#header dt {
+	float: left;
+	padding-right: 14px;
+}
+
+#header dd {
+	float: left;	
+}
+
+#header address img {
+	float: right;	
+}
+
+
+/* グローバルナビゲーション
+/////////////////////////////////////////*/
+#nav {
+	clear: both;
+	padding-top: 9px;
+	overflow: hidden;
+}
+
+#nav ul {
+	background-image: url(../img/bg_header_nav.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 51px;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a:hover img{
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter: "alpha( opacity=0 )";	
+}
+
+
+/* パンくずリスト
+/////////////////////////////////////////*/
+#pankuzu {
+	height: 19px;
+	font-size: 0.625em;
+	padding-left: 222px;
+}
+
+#pankuzu ul {
+	overflow: hidden;
+}
+
+#pankuzu li {
+	float: left;
+}
+
+
+/* コンテンツ
+/////////////////////////////////////////*/
+#contents {
+	background-image: url(../img/bg_contents.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	overflow: hidden;
+	font-size: 0.88em;
+}
+
+.top #contents {
+	margin-top: 19px;
+}
+
+/* メイン
+/////////////////////////////////////////*/
+#main {
+	overflow: hidden;
+	width: 738px;
+	float: right;
+}
+
+
+/* サイド
+/////////////////////////////////////////*/
+#side {
+	width: 202px;
+	background-color: #ffffff;
+}
+
+#side p a:hover img{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";	
+}
+
+#side dl {
+	background-color: #ffffff;
+	background-image: url(../img/bg_side_dl.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	margin-top: 5px;
+	width: 188px;
+}
+
+#side dt {
+	width: 174px;
+	background-color: #788c96;
+	border-bottom: 7px solid #acb0b2;
+	padding-left: 14px;
+	padding-top: 9px;
+	padding-bottom: 6px;
+}
+
+#side dd {
+	background-image: url(../img/bg_side_dd.png);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#side ul {
+	width; 178px;
+	padding-left: 10px;
+	padding-bottom: 14px;
+	border-bottom: 7px solid #acb0b2;
+}
+
+#side ul ul {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+#side li {
+	line-height: 1.0;	
+}
+
+#side li a:hover img{
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter: "alpha( opacity=0 )";	
+}
+
+#companyInfo {
+	background-image: url(../img/bg_side_companyinfo.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-top: 30px;
+	padding-left: 17px;
+}
+
+#companyInfo p {
+	margin-bottom: 25px;	
+}
+
+/* フッター
+/////////////////////////////////////////*/
+#footer {
+	font-size: 0.86em;
+}
+
+#footer dl {
+	width: 716px;
+	border: 1px solid #b2b2b2;	
+	padding: 10px;
+}
+
+#footer dt {
+	line-height: 0;
+	padding-bottom: 8px;	
+}
+
+#backToTop {
+	text-align: right;
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+
+#backToTop a {
+	background-image: url(../img/typ_backtotop_over.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#backToTop a:hover img{
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter: "alpha( opacity=0 )";	
+}
+
+#footer ul {
+	text-align: center;
+}
+
+#footer li {
+	display: inline-block;
+	padding-right: 8px;
+	padding-left: 4px;
+	border-right: 1px solid #333;
+	line-height: 1.0;
+}
+
+#footer li.borderNone {
+	border-right: none;
+}
+
+#brandList {
+	overflow: hidden;	
+}
+
+#brandList li {
+	float: left;
+	padding-right: 0.5em;
+	padding-left: 0;
+	border-right: none;
+	line-height: 1.6;
+}
+
+#brandList li:after {
+	content: "/";
+}
+
+#brandList li.slashNone:after {
+	content: "";	
+}
+
+#footerNaviTop {
+	border-top: 1px dotted #333333;
+	padding-top: 12px;
+}
+
+#footerNaviBottom {
+	border-bottom: 1px dotted #333333;
+	padding-bottom: 12px;
+}
+
+#copyright {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 25px;
+}

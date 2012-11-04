@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main h1 {
+	margin-bottom: 19px;	
+}
+
+#main h2 {
+	margin-bottom: 16px;	
+}
+
+#mainInner {
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow: hidden;
+}
+
+#mainInner p {
+	margin-bottom: 30px;	
+}
+
+#mainInner dl {
+	margin-bottom: 30px;	
+}
+
+#mainInner dt {
+	padding-left: 11px;	
+}
+
+#mainInner dd {
+	border-top: 2px solid #d1d6d8;
+	border-bottom: 2px solid #d1d6d8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+}
+
+#mainInner ol {
+	overflow: hidden;
+}
+
+#mainInner li {
+	float: left;
+	padding-left: 38px;
+}
+
+#contactForm {
+	border-top: 4px solid #d1d6d8;
+	border-bottom: 4px solid #d1d6d8;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+table th {
+	padding-left: 25px;
+}
+
+table td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#requiredTable th {
+	width: 210px;
+}
+
+#requiredTable td {
+	width: 476px;
+	line-height: 1.2;
+	font-size: 0.857em;
+}
+
+table tr.even {
+	border-bottom: 2px solid #ffffff;	
+}
+
+table tr.odd {
+	border-bottom: 2px dotted #ffffff;	
+}
+
+select {
+	padding: 3px;	
+}
+
+textarea {
+	width: 445px;
+	resize: vertical;
+}
+
+input[type="text"],
+textarea,
+select {
+	border: 2px solid #666;
+	margin-bottom: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+input.blur {
+	color: #999;
+}
+
+input#mail,
+input#remail {
+	width: 445px;
+}
+
+fieldset {
+	overflow: hidden;	
+}
+
+fieldset input {
+	width: 205px;
+}
+
+fieldset .name1 {
+	float: left;
+}
+
+fieldset .name2 {
+	float: left;
+	margin-left: 30px;
+}
+
+fieldset .name1 label,
+fieldset .name2 label {
+	font-size: 1.167em;
+}
+
+#requiredTable {
+	background-color: #cdcdcd;
+}
+
+#requiredTable .red {
+	margin-left: 8px;
+	font-size: 0.857em;
+	font-weight: bold;
+}
+
+#business {
+	margin-left: 25px;	
+}
+
+#optionTable {
+	margin-top: 10px;
+	border-top: 2px solid #d1d6d8;
+}
+
+.lastTr {
+	border-top: 2px solid #d1d6d8;	
+}
+
+#optionTable th#address {
+	width: 65px;
+}
+
+#optionTable td {
+	padding-left: 20px;
+}
+
+#optionTable td + td,
+#optionTable th + td {
+	line-height: 1.2;
+	font-size: 0.857em;	
+}
+
+.dottedLine {
+	border-bottom: 2px dotted #d1d6d8;
+}
+
+input#city,
+input#houseNum,
+input#tel {
+	width: 445px;
+}
+
+#confirmBtn {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 120px;
+	width: 326px;
+	height: 47px;
+	background: url(../contact/img/btn_confirm_hover.png) left top no-repeat;
+}
+
+.alphaNum {
+	ime-mode: disabled;
+}
+
+.counter {
+	color: #960000;
+	font-weight: bold;
+}
+
+input[type=image]:hover {
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter: "alpha( opacity=0 )";
+}

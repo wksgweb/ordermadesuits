@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* メイン
+/////////////////////////////////////////*/
+#mainBanner li {
+	float: left;
+	margin-top: 19px;
+	padding-right: 8px;
+}
+
+#mainBanner li.last {
+	padding-right: 0px;	
+}
+
+#mainBanner li a:hover img{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";	
+}
+
+#companyExplanation {
+	clear: both;
+	text-indent: 1.0em;
+	padding-top: 4px;
+}
+
+#concept {
+	margin-top: 18px;
+	background-image: url(../img/img_concept.png);
+	background-repeat: no-repeat;
+	background-position: right 69px;
+}
+
+#concept h2 {
+	margin-bottom: 17px;	
+}
+
+#concept p {
+	text-indent: 1.0em;
+	margin-bottom: 11px;
+	width: 394px;
+}
+
+#bannerLink {
+	text-align: center;
+	padding-top: 9px;
+	padding-bottom: 13px;
+}
+
+#bannerLink li {
+	display: inline-block;
+	padding-right: 50px;	
+}
+
+#bannerLink li a:hover img{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";	
+}
